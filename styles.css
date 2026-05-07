@@ -1,0 +1,101 @@
+/* Basic reset and typography */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #001F3F; /* navy blue background */
+  color: white; /* white text for contrast */
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background: navy;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+}
+
+.about, .services, .contact {
+  padding: 2rem 0;
+  background-color: white;
+  color: #001F3F; /* navy blue text on white background */
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #001F3F;
+  color: white;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}

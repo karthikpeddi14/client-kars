@@ -7,8 +7,8 @@ body, h1, h2, h3, p, ul {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #001F3F; /* navy blue background */
-  color: white; /* white text for contrast */
+  background-color: #FFD700; /* bright yellow background */
+  color: #001F3F; /* dark navy text for contrast */
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background: navy;
+  background: #FFCC00; /* softer yellow header */
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -27,7 +27,7 @@ header {
 
 .logo {
   font-size: 1.8rem;
-  color: white;
+  color: #001F3F;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;
+  color: #001F3F;
   text-decoration: none;
   font-weight: 600;
 }
@@ -66,8 +66,8 @@ nav ul li a:hover {
 
 .about, .services, .contact {
   padding: 2rem 0;
-  background-color: white;
-  color: #001F3F; /* navy blue text on white background */
+  background-color: #001F3F;
+  color: #FFD700;
   border-radius: 10px;
   margin-bottom: 2rem;
 }
@@ -78,8 +78,8 @@ nav ul li a:hover {
 }
 
 .card {
-  background-color: #001F3F;
-  color: white;
+  background-color: #FFCC00;
+  color: #001F3F;
   margin: 1rem;
   padding: 1rem 2rem;
   border-radius: 8px;
@@ -89,8 +89,8 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: navy;
-  color: white;
+  background-color: #FFCC00;
+  color: #001F3F;
   text-align: center;
   padding: 1rem 0;
 }
